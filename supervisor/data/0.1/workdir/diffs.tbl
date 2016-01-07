@@ -1,0 +1,11 @@
+| cntr1 | cntr2 |                             plus |                            minus |         diff             |
+| int   | int   |                             char |                             char |         char             |
+       1       2 2mass-atlas-001124n-j0880044.fits  2mass-atlas-001124n-j0880032.fits  diff.000001.000002.fits
+       1       4 2mass-atlas-001124n-j0880044.fits  2mass-atlas-001124n-j0870232.fits  diff.000001.000004.fits
+       2       3 2mass-atlas-001124n-j0880032.fits  2mass-atlas-001124n-j0870244.fits  diff.000002.000003.fits
+       2       4 2mass-atlas-001124n-j0880032.fits  2mass-atlas-001124n-j0870232.fits  diff.000002.000004.fits
+       3       4 2mass-atlas-001124n-j0870244.fits  2mass-atlas-001124n-j0870232.fits  diff.000003.000004.fits
+       3       6 2mass-atlas-001124n-j0870244.fits  2mass-atlas-001124n-j0860032.fits  diff.000003.000006.fits
+       4       5 2mass-atlas-001124n-j0870232.fits  2mass-atlas-001124n-j0860044.fits  diff.000004.000005.fits
+       4       6 2mass-atlas-001124n-j0870232.fits  2mass-atlas-001124n-j0860032.fits  diff.000004.000006.fits
+       5       6 2mass-atlas-001124n-j0860044.fits  2mass-atlas-001124n-j0860032.fits  diff.000005.000006.fits
