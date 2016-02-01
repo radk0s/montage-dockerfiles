@@ -40,7 +40,7 @@ On Linux you need only Docker installed.
 
 On Windows and Mac u need docker-machine:
 
-    docker-machine create default
+    docker-machine create -d virtualbox default
 
     docker-machinse start default
 
