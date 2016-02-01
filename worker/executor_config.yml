@@ -1,4 +1,4 @@
-amqp_url: <%= ENV['AMQP_URL'] %>
+amqp_url: amqp://admin:insecure@<%= ENV['AMQP_1_PORT_5672_TCP_ADDR'] %>:<%= ENV['AMQP_1_PORT_5672_TCP_PORT']%>
 threads: <%= Executor::cpu_count %>
 storage: cloud
 :cloud_storage:
