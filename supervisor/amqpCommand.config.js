@@ -1,6 +1,4 @@
-var AMQP_URL  = process.env.AMQP_1_PORT_5672_TCP_ADDR ?
-            "amqp://admin:insecure@" + process.env.AMQP_1_PORT_5672_TCP_ADDR + ":" +  process.env.AMQP_1_PORT_5672_TCP_PORT:
-            "amqp://localhost:5672";
+var AMQP_URL  = process.env.AMQP_URL;
 var WORKDIR   = process.env.WORKDIR;
 var S3_BUCKET = process.env.S3_BUCKET;
 var S3_PATH   = process.env.S3_PATH;
