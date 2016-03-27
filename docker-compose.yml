@@ -1,21 +1,23 @@
 version: '2'
 services:
   amqp:
-    image: 'rabbitmq'
+    image: 'rabbitmq:3.6.1-management'
     ports:
       - '5672:5672'
+      - '15672:15672'
 
   supervisor:
     build:
       context: './supervisor'
     environment:
-      - 'S3_BUCKET="montage-dag"'
-      - 'S3_PATH="0.10/input"'
+      - 'S3_BUCKET=montage.dag'
+      - 'S3_PATH=0.3/input'
+      - 'WORKDIR=0.3/input'
       - 'REDIS_URL=redis:redis'
       - 'AMQP_URL=amqp://amqp:5672'
     depends_on:
-      - redis
       - amqp
+      - redis
 
   redis:
     image: 'redis'
@@ -31,4 +33,3 @@ services:
       - 'AMQP_URL=amqp://amqp:5672'
     depends_on:
       - amqp
-      - supervisor

@@ -15,7 +15,14 @@
       "config": {
         "executor": {
           "executable": "mProjectPP",
-          "args": "-X -x 0.90423 2mass-atlas-001124n-j0880044.fits p2mass-atlas-001124n-j0880044.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-X",
+            "-x",
+            "0.90423",
+            "2mass-atlas-001124n-j0880044.fits",
+            "p2mass-atlas-001124n-j0880044.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -36,7 +43,14 @@
       "config": {
         "executor": {
           "executable": "mProjectPP",
-          "args": "-X -x 0.90465 2mass-atlas-001124n-j0880032.fits p2mass-atlas-001124n-j0880032.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-X",
+            "-x",
+            "0.90465",
+            "2mass-atlas-001124n-j0880032.fits",
+            "p2mass-atlas-001124n-j0880032.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -57,7 +71,14 @@
       "config": {
         "executor": {
           "executable": "mProjectPP",
-          "args": "-X -x 0.90448 2mass-atlas-001124n-j0870244.fits p2mass-atlas-001124n-j0870244.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-X",
+            "-x",
+            "0.90448",
+            "2mass-atlas-001124n-j0870244.fits",
+            "p2mass-atlas-001124n-j0870244.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -78,7 +99,14 @@
       "config": {
         "executor": {
           "executable": "mProjectPP",
-          "args": "-X -x 0.90415 2mass-atlas-001124n-j0870232.fits p2mass-atlas-001124n-j0870232.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-X",
+            "-x",
+            "0.90415",
+            "2mass-atlas-001124n-j0870232.fits",
+            "p2mass-atlas-001124n-j0870232.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -99,7 +127,14 @@
       "config": {
         "executor": {
           "executable": "mProjectPP",
-          "args": "-X -x 0.90640 2mass-atlas-001124n-j0860044.fits p2mass-atlas-001124n-j0860044.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-X",
+            "-x",
+            "0.90640",
+            "2mass-atlas-001124n-j0860044.fits",
+            "p2mass-atlas-001124n-j0860044.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -120,7 +155,14 @@
       "config": {
         "executor": {
           "executable": "mProjectPP",
-          "args": "-X -x 0.90682 2mass-atlas-001124n-j0860032.fits p2mass-atlas-001124n-j0860032.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-X",
+            "-x",
+            "0.90682",
+            "2mass-atlas-001124n-j0860032.fits",
+            "p2mass-atlas-001124n-j0860032.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -141,7 +183,14 @@
       "config": {
         "executor": {
           "executable": "mDiffFit",
-          "args": "-s fit.000001.000002.txt p2mass-atlas-001124n-j0880044.fits p2mass-atlas-001124n-j0880032.fits diff.000001.000002.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-s",
+            "fit.000001.000002.txt",
+            "p2mass-atlas-001124n-j0880044.fits",
+            "p2mass-atlas-001124n-j0880032.fits",
+            "diff.000001.000002.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -167,7 +216,14 @@
       "config": {
         "executor": {
           "executable": "mDiffFit",
-          "args": "-s fit.000001.000004.txt p2mass-atlas-001124n-j0880044.fits p2mass-atlas-001124n-j0870232.fits diff.000001.000004.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-s",
+            "fit.000001.000004.txt",
+            "p2mass-atlas-001124n-j0880044.fits",
+            "p2mass-atlas-001124n-j0870232.fits",
+            "diff.000001.000004.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -193,7 +249,14 @@
       "config": {
         "executor": {
           "executable": "mDiffFit",
-          "args": "-s fit.000002.000003.txt p2mass-atlas-001124n-j0880032.fits p2mass-atlas-001124n-j0870244.fits diff.000002.000003.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-s",
+            "fit.000002.000003.txt",
+            "p2mass-atlas-001124n-j0880032.fits",
+            "p2mass-atlas-001124n-j0870244.fits",
+            "diff.000002.000003.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -219,7 +282,14 @@
       "config": {
         "executor": {
           "executable": "mDiffFit",
-          "args": "-s fit.000002.000004.txt p2mass-atlas-001124n-j0880032.fits p2mass-atlas-001124n-j0870232.fits diff.000002.000004.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-s",
+            "fit.000002.000004.txt",
+            "p2mass-atlas-001124n-j0880032.fits",
+            "p2mass-atlas-001124n-j0870232.fits",
+            "diff.000002.000004.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -245,7 +315,14 @@
       "config": {
         "executor": {
           "executable": "mDiffFit",
-          "args": "-s fit.000003.000004.txt p2mass-atlas-001124n-j0870244.fits p2mass-atlas-001124n-j0870232.fits diff.000003.000004.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-s",
+            "fit.000003.000004.txt",
+            "p2mass-atlas-001124n-j0870244.fits",
+            "p2mass-atlas-001124n-j0870232.fits",
+            "diff.000003.000004.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -271,7 +348,14 @@
       "config": {
         "executor": {
           "executable": "mDiffFit",
-          "args": "-s fit.000003.000006.txt p2mass-atlas-001124n-j0870244.fits p2mass-atlas-001124n-j0860032.fits diff.000003.000006.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-s",
+            "fit.000003.000006.txt",
+            "p2mass-atlas-001124n-j0870244.fits",
+            "p2mass-atlas-001124n-j0860032.fits",
+            "diff.000003.000006.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -297,7 +381,14 @@
       "config": {
         "executor": {
           "executable": "mDiffFit",
-          "args": "-s fit.000004.000005.txt p2mass-atlas-001124n-j0870232.fits p2mass-atlas-001124n-j0860044.fits diff.000004.000005.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-s",
+            "fit.000004.000005.txt",
+            "p2mass-atlas-001124n-j0870232.fits",
+            "p2mass-atlas-001124n-j0860044.fits",
+            "diff.000004.000005.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -323,7 +414,14 @@
       "config": {
         "executor": {
           "executable": "mDiffFit",
-          "args": "-s fit.000004.000006.txt p2mass-atlas-001124n-j0870232.fits p2mass-atlas-001124n-j0860032.fits diff.000004.000006.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-s",
+            "fit.000004.000006.txt",
+            "p2mass-atlas-001124n-j0870232.fits",
+            "p2mass-atlas-001124n-j0860032.fits",
+            "diff.000004.000006.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -349,7 +447,14 @@
       "config": {
         "executor": {
           "executable": "mDiffFit",
-          "args": "-s fit.000005.000006.txt p2mass-atlas-001124n-j0860044.fits p2mass-atlas-001124n-j0860032.fits diff.000005.000006.fits big_region_20160106_153828_8.hdr"
+          "args": [
+            "-s",
+            "fit.000005.000006.txt",
+            "p2mass-atlas-001124n-j0860044.fits",
+            "p2mass-atlas-001124n-j0860032.fits",
+            "diff.000005.000006.fits",
+            "big_region_20160326_192330_26.hdr"
+          ]
         }
       },
       "ins": [
@@ -375,7 +480,11 @@
       "config": {
         "executor": {
           "executable": "mConcatFit",
-          "args": "statfile_20160106_153828_8.tbl fits.tbl ."
+          "args": [
+            "statfile_20160326_192330_26.tbl",
+            "fits.tbl",
+            "."
+          ]
         }
       },
       "ins": [
@@ -403,7 +512,13 @@
       "config": {
         "executor": {
           "executable": "mBgModel",
-          "args": "-i 100000 pimages_20160106_153828_8.tbl fits.tbl corrections.tbl"
+          "args": [
+            "-i",
+            "100000",
+            "pimages_20160326_192330_26.tbl",
+            "fits.tbl",
+            "corrections.tbl"
+          ]
         }
       },
       "ins": [
@@ -423,7 +538,13 @@
       "config": {
         "executor": {
           "executable": "mBackground",
-          "args": "-t p2mass-atlas-001124n-j0880044.fits c2mass-atlas-001124n-j0880044.fits pimages_20160106_153828_8.tbl corrections.tbl"
+          "args": [
+            "-t",
+            "p2mass-atlas-001124n-j0880044.fits",
+            "c2mass-atlas-001124n-j0880044.fits",
+            "pimages_20160326_192330_26.tbl",
+            "corrections.tbl"
+          ]
         }
       },
       "ins": [
@@ -446,7 +567,13 @@
       "config": {
         "executor": {
           "executable": "mBackground",
-          "args": "-t p2mass-atlas-001124n-j0880032.fits c2mass-atlas-001124n-j0880032.fits pimages_20160106_153828_8.tbl corrections.tbl"
+          "args": [
+            "-t",
+            "p2mass-atlas-001124n-j0880032.fits",
+            "c2mass-atlas-001124n-j0880032.fits",
+            "pimages_20160326_192330_26.tbl",
+            "corrections.tbl"
+          ]
         }
       },
       "ins": [
@@ -469,7 +596,13 @@
       "config": {
         "executor": {
           "executable": "mBackground",
-          "args": "-t p2mass-atlas-001124n-j0870244.fits c2mass-atlas-001124n-j0870244.fits pimages_20160106_153828_8.tbl corrections.tbl"
+          "args": [
+            "-t",
+            "p2mass-atlas-001124n-j0870244.fits",
+            "c2mass-atlas-001124n-j0870244.fits",
+            "pimages_20160326_192330_26.tbl",
+            "corrections.tbl"
+          ]
         }
       },
       "ins": [
@@ -492,7 +625,13 @@
       "config": {
         "executor": {
           "executable": "mBackground",
-          "args": "-t p2mass-atlas-001124n-j0870232.fits c2mass-atlas-001124n-j0870232.fits pimages_20160106_153828_8.tbl corrections.tbl"
+          "args": [
+            "-t",
+            "p2mass-atlas-001124n-j0870232.fits",
+            "c2mass-atlas-001124n-j0870232.fits",
+            "pimages_20160326_192330_26.tbl",
+            "corrections.tbl"
+          ]
         }
       },
       "ins": [
@@ -515,7 +654,13 @@
       "config": {
         "executor": {
           "executable": "mBackground",
-          "args": "-t p2mass-atlas-001124n-j0860044.fits c2mass-atlas-001124n-j0860044.fits pimages_20160106_153828_8.tbl corrections.tbl"
+          "args": [
+            "-t",
+            "p2mass-atlas-001124n-j0860044.fits",
+            "c2mass-atlas-001124n-j0860044.fits",
+            "pimages_20160326_192330_26.tbl",
+            "corrections.tbl"
+          ]
         }
       },
       "ins": [
@@ -538,7 +683,13 @@
       "config": {
         "executor": {
           "executable": "mBackground",
-          "args": "-t p2mass-atlas-001124n-j0860032.fits c2mass-atlas-001124n-j0860032.fits pimages_20160106_153828_8.tbl corrections.tbl"
+          "args": [
+            "-t",
+            "p2mass-atlas-001124n-j0860032.fits",
+            "c2mass-atlas-001124n-j0860032.fits",
+            "pimages_20160326_192330_26.tbl",
+            "corrections.tbl"
+          ]
         }
       },
       "ins": [
@@ -561,7 +712,12 @@
       "config": {
         "executor": {
           "executable": "mImgtbl",
-          "args": "-t cimages_20160106_153828_8.tbl . newcimages.tbl"
+          "args": [
+            "-t",
+            "cimages_20160326_192330_26.tbl",
+            ".",
+            "newcimages.tbl"
+          ]
         }
       },
       "ins": [
@@ -586,7 +742,12 @@
       "config": {
         "executor": {
           "executable": "mAdd",
-          "args": "-e newcimages.tbl region_20160106_153828_8.hdr mosaic_20160106_153828_8.fits"
+          "args": [
+            "-e",
+            "newcimages.tbl",
+            "region_20160326_192330_26.hdr",
+            "mosaic_20160326_192330_26.fits"
+          ]
         }
       },
       "ins": [
@@ -619,7 +780,11 @@
       "config": {
         "executor": {
           "executable": "mShrink",
-          "args": "mosaic_20160106_153828_8.fits shrunken_20160106_153828_8.fits 1"
+          "args": [
+            "mosaic_20160326_192330_26.fits",
+            "shrunken_20160326_192330_26.fits",
+            "1"
+          ]
         }
       },
       "ins": [
@@ -638,7 +803,17 @@
       "config": {
         "executor": {
           "executable": "mJPEG",
-          "args": "-ct 1 -gray shrunken_20160106_153828_8.fits min max gaussianlog -out shrunken_20160106_153828_8.jpg"
+          "args": [
+            "-ct",
+            "1",
+            "-gray",
+            "shrunken_20160326_192330_26.fits",
+            "min",
+            "max",
+            "gaussianlog",
+            "-out",
+            "shrunken_20160326_192330_26.jpg"
+          ]
         }
       },
       "ins": [
@@ -660,7 +835,7 @@
       "name": "p2mass-atlas-001124n-j0880044_area.fits"
     },
     {
-      "name": "big_region_20160106_153828_8.hdr"
+      "name": "big_region_20160326_192330_26.hdr"
     },
     {
       "name": "2mass-atlas-001124n-j0880032.fits"
@@ -768,13 +943,13 @@
       "name": "diff.000005.000006.fits"
     },
     {
-      "name": "statfile_20160106_153828_8.tbl"
+      "name": "statfile_20160326_192330_26.tbl"
     },
     {
       "name": "fits.tbl"
     },
     {
-      "name": "pimages_20160106_153828_8.tbl"
+      "name": "pimages_20160326_192330_26.tbl"
     },
     {
       "name": "corrections.tbl"
@@ -816,25 +991,25 @@
       "name": "c2mass-atlas-001124n-j0860032_area.fits"
     },
     {
-      "name": "cimages_20160106_153828_8.tbl"
+      "name": "cimages_20160326_192330_26.tbl"
     },
     {
       "name": "newcimages.tbl"
     },
     {
-      "name": "region_20160106_153828_8.hdr"
+      "name": "region_20160326_192330_26.hdr"
     },
     {
-      "name": "mosaic_20160106_153828_8.fits"
+      "name": "mosaic_20160326_192330_26.fits"
     },
     {
-      "name": "mosaic_20160106_153828_8_area.fits"
+      "name": "mosaic_20160326_192330_26_area.fits"
     },
     {
-      "name": "shrunken_20160106_153828_8.fits"
+      "name": "shrunken_20160326_192330_26.fits"
     },
     {
-      "name": "shrunken_20160106_153828_8.jpg"
+      "name": "shrunken_20160326_192330_26.jpg"
     }
   ],
   "ins": [

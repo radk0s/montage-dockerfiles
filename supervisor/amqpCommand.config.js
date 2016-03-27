@@ -9,8 +9,7 @@ exports.amqp_url = AMQP_URL;
  exports.options = {
      "storage": "s3",
      "bucket": S3_BUCKET,
-     "prefix": S3_PATH,
-     "workdir": WORKDIR
+     "prefix": S3_PATH
  };
 
 //exports.options = {
